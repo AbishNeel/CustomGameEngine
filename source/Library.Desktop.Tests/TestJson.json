@@ -1,0 +1,163 @@
+{
+  "AHealth": {
+    "type": "integer",
+    "value": [ 100, 2, 90 ]
+  },
+
+  "BTransform": {
+    "type": "vector",
+    "value": "vec4(1.0, 23.4, 98.1, 0.0)"
+  },
+
+  "CWeapon": {
+    "type": "table",
+    "class": "Scope",
+    "value": {
+      "ASelectedWeapon": {
+        "type": "integer",
+        "value": 3
+      },
+
+      "BMelee": {
+        "type": "table",
+        "class": "Scope",
+        "value": {
+          "ASword": {
+            "type": "table",
+            "class": "Scope",
+            "value": {
+              "AKatana": {
+                "type": "table",
+                "class": "Scope",
+                "value": {
+                  "Aid": {
+                    "type": "integer",
+                    "value": 1
+                  },
+                  "Damage": {
+                    "type": "float",
+                    "value": 100.59
+                  }
+
+                }
+
+              },
+
+              "BRapier": {
+                "type": "table",
+                "class": "Scope",
+                "value": {
+                  "Aid": {
+                    "type": "integer",
+                    "value": 2
+                  },
+                  "Damage": {
+                    "type": "float",
+                    "value": [ 70.59, 189.90, 228.9 ]
+                  }
+
+                }
+              }
+
+            }
+
+          },
+
+          "BSpear": {
+            "type": "table",
+            "class": "Scope",
+            "value": {
+              "AJavelin": {
+                "type": "table",
+                "class": "Scope",
+                "value": {
+                  "Aid": {
+                    "type": "integer",
+                    "value": 3
+                  },
+                  "Damage": {
+                    "type": "float",
+                    "value": 270.06
+                  }
+
+                }
+              }
+
+            }
+          }
+
+        }
+      },
+
+      "BRanged": {
+        "type": "table",
+        "class": "Scope",
+        "value": {
+          "ABowArrow": {
+            "type": "table",
+            "class": "Scope",
+            "value": {
+              "Aid": {
+                "type": "integer",
+                "value": 4
+              },
+              "Damage": {
+                "type": "float",
+                "value": 40.1
+              }
+
+            }
+
+          },
+
+          "AShotgun": {
+
+            "type": "table",
+            "class": "Scope",
+            "value": [
+              {
+                "Aid": {
+                  "type": "integer",
+                  "value": [ 5, 6, 9 ]
+                },
+                "Damage": {
+                  "type": "float",
+                  "value": [ 700.59, 198.11, 22.0 ]
+                }
+
+              },
+              {
+                "Aid": {
+                  "type": "integer",
+                  "value": [ 4, 1, 7 ]
+                },
+                "Damage": {
+                  "type": "float",
+                  "value": 1.59
+                }
+
+              }
+            ]
+          }
+
+        }
+      }
+
+    }
+  },
+
+  "Damage": {
+    "type": "float",
+    "value": [ 13.75, 0.02 ]
+  },
+
+  "Name": {
+    "type": "string",
+    "value": "Monster"
+  },
+
+  "Matrix": {
+    "type": "matrix",
+    "value": "mat4( 1.1, 2.2, 3.3, 4.4\n 5.5, 6.6, 7.7, 8.8\n 9.9, 10.1, 11.1, 12.1\n 13.1, 14.1, 15.1, 16.1)"
+  }
+}

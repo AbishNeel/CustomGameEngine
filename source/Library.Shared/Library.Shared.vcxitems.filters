@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{e174f801-455f-4dce-b2de-2336e22f2e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{76003875-bb56-41fa-827f-5f7ebddf2eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{4838ffa4-8be4-45a0-af1d-d359bbdee6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{72dcf33f-f37e-4e79-be0c-9475bb802198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{d2190041-7576-44fe-bde4-272c22dfd189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actions">
+      <UniqueIdentifier>{23591cf9-b94b-4519-8b40-a563facfd17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{f7efcc38-6c9e-4b21-a029-6f110941e892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Entities">
+      <UniqueIdentifier>{3266abb5-dc4c-4031-a257-2a8014b845de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultEquality.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultIncrement.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultHash.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)HashMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Datum.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scope.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Attributed.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TypeManager.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IJsonParseHelper.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Stack.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TableParseHelper.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Factory.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Action.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionList.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionListSwitch.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionIncrement.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IEventPublisher.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IEventSubscriber.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventQueue.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Reaction.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionMessageAttributed.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionAttributed.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionEvent.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameState.h">
+      <Filter>Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionExpression.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DefaultHash.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RTTI.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Datum.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scope.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Attributed.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TypeManager.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IJsonParseHelper.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TableParseHelper.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameTime.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Action.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionList.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionListSwitch.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionIncrement.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IEventPublisher.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventQueue.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionMessageAttributed.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionAttributed.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameState.cpp">
+      <Filter>Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionEvent.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionExpression.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)SList.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)SList.h">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Vector.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultEquality.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultIncrement.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultHash.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)RTTI.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Datum.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)HashMap.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Stack.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Factory.inl">
+      <Filter>Kernel</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Event.inl">
+      <Filter>Event</Filter>
+    </None>
+  </ItemGroup>
+</Project>

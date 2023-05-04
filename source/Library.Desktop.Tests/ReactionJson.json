@@ -1,0 +1,71 @@
+{
+  "MonsterGuy": {
+    "type": "table",
+    "class": "Monster",
+    "value": {
+      "Name": {
+        "type": "string",
+        "value": "Monster Guy"
+      },
+
+      "Health": {
+        "type": "integer",
+        "value": 100
+      },
+
+      "Actions": {
+        "type": "table",
+        "class": "ReactionAttributed",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Reaction"
+          },
+          "Subtype": {
+            "type": "integer",
+            "value": 0
+          },
+          "Actions": {
+            "type": "table",
+            "class": "ActionIncrement",
+            "value": [
+              {
+                "Name": {
+                  "type": "string",
+                  "value": "Then Block"
+                },
+
+                "Target": {
+                  "type": "string",
+                  "value": "Health"
+                },
+
+                "Step": {
+                  "type": "integer",
+                  "value": 5
+                }
+
+              },
+              {
+                "Name": {
+                  "type": "string",
+                  "value": "Else Block"
+                },
+
+                "Target": {
+                  "type": "string",
+                  "value": "Health"
+                },
+
+                "Step": {
+                  "type": "integer",
+                  "value": -10
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

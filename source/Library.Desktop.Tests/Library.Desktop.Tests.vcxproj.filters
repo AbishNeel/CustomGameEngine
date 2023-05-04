@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{1a5fe3cb-ea26-4ace-8a05-b705c142a03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support Code">
+      <UniqueIdentifier>{42bf2102-17b7-4b4f-a45c-eb2193211b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestJsons">
+      <UniqueIdentifier>{d29a3be2-446c-460c-977e-0835b3776446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SListTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultHashTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFooTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModuleInitialize.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeManagerTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedBar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerParseHelper.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ParserTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FooSubscriber.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactionTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ToStringSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedBar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerParseHelper.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FooSubscriber.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="AttributedFooJson.json">
+      <Filter>TestJsons</Filter>
+    </None>
+    <None Include="GameObjectJson.json">
+      <Filter>TestJsons</Filter>
+    </None>
+    <None Include="ReactionJson.json">
+      <Filter>TestJsons</Filter>
+    </None>
+    <None Include="ActionExpressionJson.json">
+      <Filter>TestJsons</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="TestJson.json">
+      <Filter>TestJsons</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ActionsJson.json">
+      <Filter>TestJsons</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

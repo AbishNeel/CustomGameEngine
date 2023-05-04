@@ -1,0 +1,44 @@
+{
+  "type": "table",
+  "class": "GameObject",
+  "value": {
+    "Name": {
+      "type": "string",
+      "value": "TestGameObject"
+    },
+    "Transform": {
+      "Position": {
+        "type": "vector",
+        "value": "vec4(1.0, 23.4, 98.1, 0.0)"
+      },
+
+      "Rotation": {
+        "type": "vector",
+        "value": "vec4(0.0, 90.0, 0.0, 0.0)"
+      },
+
+      "Scale": {
+        "type": "vector",
+        "value": "vec4(1.0, 1.0, 1.0, 0.0)"
+      }
+    },
+    "Children": {
+      "type": "table",
+      "class": "GameObject",
+      "value": [
+        {
+          "Name": {
+            "type": "string",
+            "value": "Child1"
+          }
+        },
+        {
+          "Name": {
+            "type": "string",
+            "value": "Child2"
+          }
+        }
+      ]
+    }
+  }
+}

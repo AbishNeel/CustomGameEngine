@@ -1,0 +1,34 @@
+{
+  "Root": {
+    "type": "table",
+    "class": "GameObject",
+    "value": {
+      "Actions": {
+        "type": "table",
+        "class": "ActionExpression",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "AExpr"
+          },
+          "Expression": {
+            "type": "string",
+            "value": "( Player.Health - Player.Damage )"
+          }
+        }
+      },
+      "Name": {
+        "type": "string",
+        "value": "Player"
+      },
+      "Health": {
+        "type": "integer",
+        "value": 100
+      },
+      "Damage": {
+        "type": "integer",
+        "value": 10
+      }
+    }
+  }
+}

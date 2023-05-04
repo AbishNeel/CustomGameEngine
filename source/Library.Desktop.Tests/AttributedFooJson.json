@@ -1,0 +1,55 @@
+{
+  "type": "table",
+  "class": "AttributedFoo",
+  "value": {
+    "ExternalInteger": {
+      "type": "integer",
+      "value": 5
+    },
+
+    "ExternalFloat": {
+      "type": "float",
+      "value": 3.5
+    },
+
+    "ExternalString": {
+      "type": "string",
+      "value": "this is a string"
+    },
+
+    "ExternalVector": {
+      "type": "vector",
+      "value": "vec4(1.0, 23.4, 98.1, 0.0)"
+    },
+
+    "ExternalMatrix": {
+      "type": "matrix",
+      "value": "mat4( 1.1, 2.2, 3.3, 4.4\n 5.5, 6.6, 7.7, 8.8\n 9.9, 10.1, 11.1, 12.1\n 13.1, 14.1, 15.1, 16.1)"
+    },
+
+    "ExternalIntegerArray": {
+      "type": "integer",
+      "value": [ 10, 20, 30, 40 ]
+    },
+
+    "ExternalFloatArray": {
+      "type": "float",
+      "value": [ 10.5, 20.5, 30.5, 40.5 ]
+    },
+
+    "ExternalStringArray": {
+      "type": "string",
+      "value": [ "first", "second", "third", "fourth" ]
+    },
+
+    "ExternalVectorArray": {
+      "type": "vector",
+      "value": [ "vec4(1.0, 23.4, 98.1, 0.0)", "vec4(3.0, 13.4, 8.1, 10.0)" ]
+    },
+
+    "ExternalMatrixArray": {
+      "type": "matrix",
+      "value": [ "mat4( 1.1, 2.2, 3.3, 4.4\n 5.5, 6.6, 7.7, 8.8\n 9.9, 10.1, 11.1, 12.1\n 13.1, 14.1, 15.1, 16.1)", "mat4( 1.5, 2.5, 3.5, 4.5\n 5.5, 6.5, 7.5, 8.5\n 9.5, 10.5, 11.5, 12.5\n 13.5, 14.5, 15.5, 16.5)" ]
+    }
+  }
+}

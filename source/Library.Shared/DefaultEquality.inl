@@ -1,0 +1,36 @@
+#include "DefaultEquality.h"
+
+namespace FieaGameEngine
+{
+	template <typename T>
+	inline bool DefaultEquality<T>::operator()(const T& lhs, const T& rhs) const
+	{
+		return lhs == rhs;
+	}
+
+	inline bool DefaultEquality<char*>::operator()(const char* lhs, const char* rhs) const
+	{
+		return strcmp(lhs, rhs) == 0;
+	}
+
+	inline bool DefaultEquality<const char*>::operator()(const char* lhs, const char* rhs) const
+	{
+		return strcmp(lhs, rhs) == 0;
+	}
+
+	inline bool DefaultEquality<char* const>::operator()(const char* const lhs, const char* const rhs) const
+	{
+		return strcmp(lhs, rhs) == 0;
+	}
+
+	inline bool DefaultEquality<const char* const>::operator()(const char* const lhs, const char* const rhs) const
+	{
+		return strcmp(lhs, rhs) == 0;
+	}
+
+	template <typename TKey, typename TValue>
+	inline bool DefaultEquality <SList<std::pair<TKey, TValue>>>::operator()(const SList<std::pair<TKey, TValue>>& lhs, const SList<std::pair<TKey, TValue>>& rhs) const
+	{
+		return std::equal(lhs.begin(), lhs.end(), rhs.begin(), rhs.end());
+	}
+}
