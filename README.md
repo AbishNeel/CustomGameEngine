@@ -7,9 +7,8 @@ This C++ library provides three custom container classes: `SList`, `Vector`, and
 - [SList](#slist)
 - [Vector](#vector)
 - [HashMap](#hashmap)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Datum](#datum)
+- [Scope](#scope)
 
 ## SList
 
@@ -45,16 +44,3 @@ This C++ library provides three custom container classes: `SList`, `Vector`, and
 - Dynamic resizing for automatic capacity management.
 - Iterators for traversing the map's key-value pairs.
 - ...
-
-## Usage
-
-1. Clone the repository:
-git clone https://github.com/your-username/custom-containers.git
-
-
-2. Include the desired container header in your C++ code:
-
-```cpp
-#include "SList.h"
-#include "Vector.h"
-#include "HashMap.h"
